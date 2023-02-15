@@ -1,0 +1,22 @@
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(250,100,100);
+// Shape1
+  beginShape();
+vertex(100, 20);
+vertex(20, 20);
+   vertex(20, 50);
+   vertex(20, 140);
+    vertex(100, 140);
+    vertex(100, 100);
+   vertex(50, 100);
+   vertex(100,100);
+   vertex(50, 100);
+   vertex(50, 50);
+   vertex(100,50);
+endShape(CLOSE);
+}
