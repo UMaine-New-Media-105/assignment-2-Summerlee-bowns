@@ -1,0 +1,31 @@
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+  background(50,120,360);
+  noStroke (0)
+  fill ("yellow")
+  rect(0, 150, 600, 100)
+// triangle 
+  fill ("black")
+  triangle (0, 50, 0, 350,200, 200);
+  //star
+  
+  fill('white')
+  noStroke(0)
+  { beginShape();
+vertex(360, 290);
+vertex(340, 220);
+vertex(400, 175);
+vertex(330, 175);
+vertex(300, 100);
+vertex(270,175);
+vertex(200, 175);
+vertex(260, 220);
+vertex(240, 290);
+vertex(300, 250);
+vertex(360, 290);
+ endShape();
+}
+}
